@@ -5,13 +5,21 @@ of translation : 3rd ed. Moscow: VMK MSU, 2009). The description of the language
 variables of type int and adding one-dimensional arrays of type int to it. Language constructs
 that define an array containing a certain number of elements, and constructs that
 there is an access to an array element, can be selected arbitrary, for example such:
+
 D → I {, I}: int [N]
+
 F → I [E]
+
 S → I [E] := E | read(I [E])
+
 or such:
+
 D → I {, I}: array of N int
+
 F → I >> E
+
 S → I >> E := E | read(I >> E)
+
 and so on. A prerequisite for passing the program is the presence of a fully described (on a piece of paper
 or in a text editor) grammar defining the language.
 If the executable file of the translator program is called a.out, then call ./a.out MyProg.ml it should
