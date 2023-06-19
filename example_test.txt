@@ -1,0 +1,8 @@
+program
+var i, j: int;
+begin
+i := 1;
+read(j);
+write((j -1)*4);
+write(i)
+end @
